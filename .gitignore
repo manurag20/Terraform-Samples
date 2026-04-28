@@ -1,0 +1,28 @@
+AWS_Create_Instance/my-key/myKey
+AWS_Create_Instance/my-key/myKey.pub
+# Terraform working directory (providers, modules, plugins)
+*/.terraform/
+
+# Terraform state files (VERY IMPORTANT)
+*/*.tfstate
+*/*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# Override files (rare, but good to ignore)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Optional: plan output files
+*.tfplan
