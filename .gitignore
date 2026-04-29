@@ -1,5 +1,5 @@
-AWS_Create_Instance/my-key/myKey
-AWS_Create_Instance/my-key/myKey.pub
+**/my-key/myKey
+**/my-key/myKey.pub
 # Terraform working directory (providers, modules, plugins)
 */.terraform/
 
